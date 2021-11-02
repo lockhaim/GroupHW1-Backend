@@ -8,5 +8,4 @@ const carsSchema = new mongoose.Schema({
 });
 
 const Cars = mongoose.model('Car', carsSchema);
-
 module.exports = Cars;
